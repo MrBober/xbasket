@@ -36,3 +36,5 @@ function sel {
 [ "$1" = "hide" ] && hide $2
 [ "$1" = "show" ] && show $2
 [ "$1" = "select" ] && sel 
+
+[ -f "$list" ] && chmod 600 $list
