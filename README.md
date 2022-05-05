@@ -15,3 +15,4 @@ Commands:
   show - show a minimized window with given id
   select - display a list of minimized windows and select one
 ```
+You can set variable `DMENU` to for example `rofi -dmenu` if instead of `dmenu` you want to use `rofi`.
